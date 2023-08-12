@@ -3,7 +3,7 @@ import telebot
 from Helper import Helper
 
 
-os.environ['BOT_TOKEN'] = "6026289851:AAFSo9ysgjMndV9NFFlCHt3X9JDOu9kSq_k"
+os.environ['BOT_TOKEN'] = ""
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 bot = telebot.TeleBot(BOT_TOKEN)
